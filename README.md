@@ -7,4 +7,4 @@ This project is currently unfinished, the game requires an init input from the c
 
 This game assumes no one is allowed to see what other cards each players turn should have and only shows refute cards to one player.
 
-
+![cluedo](cluedo.JPG)
