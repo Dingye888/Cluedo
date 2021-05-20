@@ -72,8 +72,6 @@ public class ControlerPanel extends JPanel {
 	/**
 	 * Helper method which Makes all the JButtons from a given array of Strings
 	 * along with Key mapping and assign a responce for each button clicked.
-	 * 
-	 * @param map
 	 */
 	private Map<String, JButton> makeButtons() {
 		Map<String, JButton> map = new LinkedHashMap<>();
@@ -110,7 +108,7 @@ public class ControlerPanel extends JPanel {
 	/**
 	 * Updates the button enable state based on the avalible options
 	 * 
-	 * @param options <Name,key mapping>
+	 * @param controls <Name,key mapping>
 	 */
 	public void updateControlButtons(Map<String, String> controls) {
 		if (controls == null) {
